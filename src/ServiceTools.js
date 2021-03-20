@@ -13,11 +13,11 @@ class ServiceTools extends Component {
             <div style={{backgroundColor:"#043970"}}>
                 <h2 className="titles">Services and Tools</h2>
                 <ul className="serviceTools">
-                    <li><img src={tool01}/></li>
-                    <li><img src={tool02}/></li>
-                    <li><img src={tool03}/></li>
-                    <li><img src={tool04}/></li>
-                    <li><img src={tool05}/></li>
+                    <li><img className="STItem" src={tool01}/></li>
+                    <li><img className="STItem" src={tool02}/></li>
+                    <li><img className="STItem" src={tool03}/></li>
+                    <li><img className="STItem" src={tool04}/></li>
+                    <li><img className="STItem" src={tool05}/></li>
                 </ul>
             </div>
         );

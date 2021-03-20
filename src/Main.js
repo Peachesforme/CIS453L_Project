@@ -15,7 +15,7 @@ class Main extends Component {
     render() {
         return (
             <HashRouter>
-                <div>
+                <div className="mainDisplay">
                     <div style={{display:"flex",flexDirection:"row",padding:10}}>
                         <img src={logo}/>
                         <h1 style={{paddingLeft:20, color:"#043970"}}>Mouser Electronics</h1>

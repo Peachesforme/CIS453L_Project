@@ -1,7 +1,6 @@
 body {
-    background-color: white;
-    padding: 20px;
-    margin: 0;
+    background-color: whitesmoke;
+    margin: auto;
 }
 
 h1, h2, p, ul, li {
@@ -28,8 +27,10 @@ ul.header li a{
 }
 
 .content {
-    background-color: #FFF;
-    padding: 20px;
+    background-color: #043970;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
 }
 
 .content h2{
@@ -42,7 +43,7 @@ ul.header li a{
 }
 
 .active {
-    background-color: #0099FF;
+    background-color: #0099FF55;
 }
 
 .salesItems, .serviceTools, .recentlyRestocked {
@@ -59,4 +60,46 @@ ul.header li a{
 .titles {
     font-size: 48px;
     color:white;
+    padding-left: 20px;
 }
+
+
+.homeImg {
+    width: 95%;
+    border: black solid 2px;
+}
+
+.mainDisplay {
+    margin:auto;
+    width: 50vw;
+    justify-content: center;
+    align-content: center;
+}
+
+.STItem {
+    border-radius: 50%;
+    border: black solid 1px;
+}
+
+.RRStockItems, .SalesItems  {
+    border-radius: 5px;
+    border: black solid 1px;
+}
+
+#COVIDMSG {
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    width: 80%;
+    padding: 5px;
+    background-color: lightgrey;
+    font-size: 2em;
+    display: block;
+    border-style: solid;
+}
+
+#homeDIV {
+    padding: 2%;
+}
+
+/* {width:"50%", backgroundColor:"lightGrey",fontSize: "2em", display:"block", borderStyle:"solid"} */

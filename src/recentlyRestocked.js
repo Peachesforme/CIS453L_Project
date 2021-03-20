@@ -12,10 +12,10 @@ class RecentStock extends Component {
             <div style={{backgroundColor:"#043970"}}>
                 <h2 className="titles">Recently Restocked</h2>
                 <ul className="recentlyRestocked">
-                    <li><img src={stock01}/></li>
-                    <li><img src={stock02}/></li>
-                    <li><img src={stock03}/></li>
-                    <li><img src={stock04}/></li>
+                    <li><img className="RRStockItems" src={stock01}/></li>
+                    <li><img className="RRStockItems" src={stock02}/></li>
+                    <li><img className="RRStockItems" src={stock03}/></li>
+                    <li><img className="RRStockItems" src={stock04}/></li>
                 </ul>
             </div>
         );

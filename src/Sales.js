@@ -14,13 +14,13 @@ class Stuff extends Component {
                 <h2 className="titles">Sales</h2>
  
                 <ul className="salesItems">
-                    <li><img src={new01}/></li>
-                    <li><img src={new02}/></li>
-                    <li><img src={new03}/></li>
-                    <li><img src={new04}/></li>
-                    <li><img src={new05}/></li>
-                    <li><img src={new06}/></li>
-                    <li><img src={new07}/></li>
+                    <li><img className="SalesItems" src={new01}/></li>
+                    <li><img className="SalesItems" src={new02}/></li>
+                    <li><img className="SalesItems" src={new03}/></li>
+                    <li><img className="SalesItems" src={new04}/></li>
+                    <li><img className="SalesItems" src={new05}/></li>
+                    <li><img className="SalesItems" src={new06}/></li>
+                    <li><img className="SalesItems" src={new07}/></li>
                 </ul>
             </div>
         );

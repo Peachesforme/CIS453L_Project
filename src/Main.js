@@ -9,7 +9,7 @@ import Sales from "./Sales"
 import logo from "./Logo.png";
 import ServiceTools from "./ServiceTools";
 import RecentStock from "./recentlyRestocked";
-
+import FooterImg from './Footer.png';
 
 class Main extends Component {
     render() {
@@ -32,6 +32,7 @@ class Main extends Component {
                         <Route path="/serviceTools" component={ServiceTools}/>
                         <Route path="/recentlyRestocked" component={RecentStock}/>
                     </div>
+                    <img id="footerID" src={FooterImg}></img>
                 </div>
             </HashRouter>
             

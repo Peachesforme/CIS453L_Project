@@ -63,6 +63,10 @@ ul.header li a{
     padding-left: 20px;
 }
 
+#footerID {
+    padding-top:10%;
+    width: 100%;
+}
 
 .homeImg {
     width: 95%;
@@ -71,7 +75,7 @@ ul.header li a{
 
 .mainDisplay {
     margin:auto;
-    width: 50vw;
+    width: 75vw;
     justify-content: center;
     align-content: center;
 }

@@ -1,60 +1,20 @@
+/* General Webpage CSS Properties */
 body {
     background-color: whitesmoke;
     margin: auto;
 }
 
 h1, h2, p, ul, li {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-ul.header li{
-    display: inline;
-    list-style-type: none;
-    margin: 0;
-}
-
-ul.header {
-    background-color: #0070BB;
-    padding: 0;
-}
-
-ul.header li a{
-    color: #FFF;
-    font-weight:  bold;
-    text-decoration: none;
-    padding: 20px;
-    display: inline-block;
-}
-
-.content {
-    background-color: #043970;
-    align-content: center;
-    justify-content: center;
-    margin: auto;
-}
-
-.content h2{
-    padding: 0;
-    margin: 0;
-}
-
-.content li{
-    margin-bottom: 10px;
-}
-
-.active {
-    background-color: #0099FF55;
-}
-
+/* Components CSS Properites (Shared)*/
 .salesItems, .serviceTools, .recentlyRestocked {
     display: flex;
     flex-direction: row;
     margin: auto;
     flex-wrap:wrap;
-}
-
-.salesItems li, .serviceTools li, .recentlyRestocked li {
-    margin: auto;
+    padding: 2rem;
 }
 
 .titles {
@@ -63,31 +23,15 @@ ul.header li a{
     padding-left: 20px;
 }
 
-#footerID {
-    padding-top:10%;
-    width: 100%;
-}
+
+/* Home Component CSS Properties */
 
 .homeImg {
     width: 95%;
     border: black solid 2px;
-}
-
-.mainDisplay {
-    margin:auto;
-    width: 75vw;
-    justify-content: center;
-    align-content: center;
-}
-
-.STItem {
-    border-radius: 50%;
-    border: black solid 1px;
-}
-
-.RRStockItems, .SalesItems  {
-    border-radius: 5px;
-    border: black solid 1px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #COVIDMSG {
@@ -95,15 +39,30 @@ ul.header li a{
     align-content: center;
     margin: auto;
     width: 80%;
-    padding: 5px;
+    padding-top: 5px;
     background-color: lightgrey;
     font-size: 2em;
     display: block;
     border-style: solid;
 }
 
-#homeDIV {
-    padding: 2%;
+/* Service & Tools CSS Properties */
+
+.STItem {
+    border-radius: 50%;
+    border: black solid 1px;
 }
 
-/* {width:"50%", backgroundColor:"lightGrey",fontSize: "2em", display:"block", borderStyle:"solid"} */
+/* Recently Restocked CSS Propertie */
+
+.RRStockItems, .SalesItems  {
+    border-radius: 5px;
+    border: black solid 1px;
+}
+
+
+/* Footer CSS Properties (Footer is just an Image) */
+#footerID {
+    padding-top:10%;
+    width: 100%;
+}

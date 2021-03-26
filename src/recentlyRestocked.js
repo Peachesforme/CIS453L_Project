@@ -1,21 +1,21 @@
 import React, {Component} from "react";
-import stock01 from "./stock01.png";
-import stock02 from "./stock02.png";
-import stock03 from "./stock03.png";
-import stock04 from "./stock04.png";
+import stock01 from "./img/stock01.png";
+import stock02 from "./img/stock02.png";
+import stock03 from "./img/stock03.png";
+import stock04 from "./img/stock04.png";
 
 
 class RecentStock extends Component {
     
     render() {
         return(
-            <div style={{backgroundColor:"#043970"}}>
+            <div style={{backgroundColor:"#043970",borderRadius:5}}>
                 <h2 className="titles">Recently Restocked</h2>
                 <ul className="recentlyRestocked">
-                    <li><img className="RRStockItems" src={stock01}/></li>
-                    <li><img className="RRStockItems" src={stock02}/></li>
-                    <li><img className="RRStockItems" src={stock03}/></li>
-                    <li><img className="RRStockItems" src={stock04}/></li>
+                    <img className="RRStockItems" src={stock01}/>
+                    <img className="RRStockItems" src={stock02}/>
+                    <img className="RRStockItems" src={stock03}/>
+                    <img className="RRStockItems" src={stock04}/>
                 </ul>
             </div>
         );

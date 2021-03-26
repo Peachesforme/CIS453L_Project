@@ -1,0 +1,71 @@
+/* Header CSS Properties */
+
+.Banner {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    text-align: left;
+}
+
+.ContactInfo {
+    margin-left:auto;
+    margin-right: 0;
+}
+
+/* Navbar CSS Properties */
+
+ul.navBar {
+    font-size: 2rem;
+    background-color: #0070BB;
+    padding: 0;
+    height: 2.5rem;
+}
+
+ul.navBar li{
+    display: inline;
+    list-style-type: none;
+    padding-left: 2%;
+}
+
+ul.navBar li a{
+    color: #FFF;
+    font-weight:  bold;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+ul.navBar li a:hover {
+    font-size: 2.1rem
+}
+
+.active {
+    background-color: #0099FF55;
+    font-size: 2.1rem;
+}
+
+/* Body of Content */
+
+.mainDisplay { 
+    width: 75vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Content CSS Properties */
+
+.content {
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.content h2{
+    padding: 0;
+    margin: 0;
+}
+

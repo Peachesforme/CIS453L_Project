@@ -15,12 +15,19 @@ h1, h2, p, ul, li {
     margin: auto;
     flex-wrap:wrap;
     padding: 2rem;
+    box-shadow: 2px 2px 25px;
+}
+
+.salesItems h1, .serviceTools h1, .recentlyRestocked h1{
+    
 }
 
 .titles {
     font-size: 48px;
     color:white;
     padding-left: 20px;
+    display: block;
+    box-shadow: 0 0 0;
 }
 
 

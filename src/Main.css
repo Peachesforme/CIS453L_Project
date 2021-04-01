@@ -1,6 +1,6 @@
 .Banner {
     /* background-color: whitesmoke; */
-    background: linear-gradient(180deg, rgba(4, 57, 112, 0.31) 0%, #0070BB 96.87%);
+    background: linear-gradient(180deg, rgba(4, 57, 112,1) 0%, #0070BB 96.87%);
     display: flex;
     flex-direction: row;
     margin-bottom: 0;

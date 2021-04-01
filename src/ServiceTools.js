@@ -4,20 +4,21 @@ import tool02 from "./img/tool02.png";
 import tool03 from "./img/tool03.png";
 import tool04 from "./img/tool04.png";
 import tool05 from "./img/tool05.png";
+import "./ContentStyle.css"
 
 
 class ServiceTools extends Component {
     
     render() {
         return(
-            <div style={{backgroundColor:"#043970",borderRadius:5}}>
-                <h2 className="titles">Services and Tools</h2>
-                <ul className="serviceTools">
-                    <img className="STItem" src={tool01}/>
-                    <img className="STItem" src={tool02}/>
-                    <img className="STItem" src={tool03}/>
-                    <img className="STItem" src={tool04}/>
-                    <img className="STItem" src={tool05}/>
+            <div className="content">
+                <h2 className="title">Services and Tools</h2>
+                <ul className="serviceTools itemList">
+                    <img className="serviceTools itemInList" src={tool01}/>
+                    <img className="serviceTools itemInList" src={tool02}/>
+                    <img className="serviceTools itemInList" src={tool03}/>
+                    <img className="serviceTools itemInList" src={tool04}/>
+                    <img className="serviceTools itemInList" src={tool05}/>
                 </ul>
             </div>
         );

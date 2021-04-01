@@ -3,17 +3,13 @@ import Marque01 from "./img/Marque01.png";
 import Sales from './Sales';
 import RecentlyRestocked from './recentlyRestocked'
 import ServiceTools from './ServiceTools'
+import "./Home.css";
 
 class Home extends Component {
     render() {
         return(
+            <>
             <div id="homeDIV">
-                <h2 className="titles" 
-                style={{fontSize: 48, 
-                        color: "#0070BB", 
-                        paddingLeft:20}}>
-                    Welcome to Mouser Electronics
-                </h2>
                 <img src={Marque01} className="homeImg"/>
                 <br></br>
                 <p id="COVIDMSG">
@@ -22,15 +18,13 @@ class Home extends Component {
                     Please, check out our "Recently Stocked" page 
                     if we were out of a product you were looking for last time.
                 </p> 
-            <div>
-                <br></br>
             </div>
+            <div className="Home prodservDisplay">
                 <Sales />
-                <br></br>
                 <ServiceTools />
-                <br></br>
                 <RecentlyRestocked />                           
             </div>
+            </>
         );
     }
 }

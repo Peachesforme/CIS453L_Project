@@ -1,71 +1,23 @@
-/* Header CSS Properties */
-
 .Banner {
+    /* background-color: whitesmoke; */
+    background: linear-gradient(180deg, rgba(4, 57, 112, 0.31) 0%, #0070BB 96.87%);
     display: flex;
     flex-direction: row;
-    padding: 10px;
-    text-align: left;
+    margin-bottom: 0;
 }
 
 .ContactInfo {
     margin-left:auto;
-    margin-right: 0;
+    margin-right: 2%;
+    text-align: right;
 }
 
-/* Navbar CSS Properties */
-
-ul.navBar {
-    font-size: 2rem;
-    background-color: #0070BB;
-    padding: 0;
-    height: 2.5rem;
+.CompanyName {
+    font-weight: bold;
+    margin-left:2%;
+    font-size: 3rem;
+    color: whitesmoke;
+    text-align: center;
 }
 
-ul.navBar li{
-    display: inline;
-    list-style-type: none;
-    padding-left: 2%;
-}
-
-ul.navBar li a{
-    color: #FFF;
-    font-weight:  bold;
-    text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: inline-block;
-}
-
-ul.navBar li a:hover {
-    font-size: 2.1rem
-}
-
-.active {
-    background-color: #0099FF55;
-    font-size: 2.1rem;
-}
-
-/* Body of Content */
-
-.mainDisplay { 
-    width: 75vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-/* Content CSS Properties */
-
-.content {
-    align-content: center;
-    justify-content: center;
-    margin: auto;
-}
-
-.content h2{
-    padding: 0;
-    margin: 0;
-}
 

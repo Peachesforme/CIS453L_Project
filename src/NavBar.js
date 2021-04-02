@@ -24,13 +24,11 @@ class NavBar extends Component {
                         <NavLink to="/recentlyRestocked">Recently Stocked</NavLink>
                     </ul>
                 </div>
-                    <div className="Content">
-                        <Route exact path="/" component={Home}/>
-                        <Route path="/sales" component={Sales}/>
-                        <Route path="/serviceTools" component={ServiceTools}/>
-                        <Route path="/recentlyRestocked" component={RecentStock}/>
-                    
-                    
+                <div className="Content">
+                    <Route exact path="/" component={Home}/>
+                    <Route path="/sales" component={Sales}/>
+                    <Route path="/serviceTools" component={ServiceTools}/>
+                    <Route path="/recentlyRestocked" component={RecentStock}/>
                 </div>
                 <img id="footerID" src={FooterImg}></img>
             </HashRouter> 

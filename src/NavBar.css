@@ -11,6 +11,7 @@
 .navBar a{
     color: white;
     margin: 1% 1% 0 0;
+    text-shadow: 1px 1px black;
     font-weight:  bold;
     text-decoration: none;
     padding-left: 10px;
@@ -22,15 +23,16 @@
     text-align: center;
 }
 
+
 .navBar a:hover {
     font-size:2.2rem
 }
 
 
-.active {
+.navBarul .active {
     font-size: 2.2rem;
     background-color: #57A1D2;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 .Content {

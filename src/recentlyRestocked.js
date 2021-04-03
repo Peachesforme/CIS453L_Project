@@ -1,23 +1,30 @@
 import React, {Component} from "react";
-import stock01 from "./img/stock01.png";
-import stock02 from "./img/stock02.png";
-import stock03 from "./img/stock03.png";
-import stock04 from "./img/stock04.png";
+import ItemComponent from './ItemComponent'
 import "./ContentStyle.css";
 
+
+const itemList = [ 
+    { name: 'stock01', price: 3.99, quantity: 250},
+    { name: 'stock02', price: 9.99, quantity: 999},
+    { name: 'stock03', price: 9.99, quantity: 999},
+    { name: 'stock04', price: 9.99, quantity: 999},
+ ]
 
 class RecentStock extends Component {
     
     render() {
         return(
-            <div className="content">
+            <div className="content Restock">
                 <h2 className="title">Recently Restocked</h2>
-                <ul className="recentRestock itemList">
-                    <img className="recentRestock itemInList" src={stock01}/>
-                    <img className="recentRestock itemInList" src={stock02}/>
-                    <img className="recentRestock itemInList" src={stock03}/>
-                    <img className="recentRestock itemInList" src={stock04}/>
-                </ul>
+                <div className="itemList">
+                    { itemList.map( (_,i) => {
+                    return <ItemComponent 
+                        name={itemList[i].name} 
+                        price={itemList[i].price}
+                        quantity={itemList[i].quantity}
+                    />
+                    })}
+                </div>
             </div>
         );
     }

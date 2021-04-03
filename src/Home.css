@@ -1,3 +1,5 @@
+/* 'Head' of the Home page */
+
 .homeImg{
     display: block;
     width: 75%;
@@ -14,3 +16,67 @@
     display: block;
     border-style: solid;
 }
+
+.prodservDisplay {
+    margin-top: 5%;
+}
+
+
+
+/* First Break between Content*/
+
+.firstBreak {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.breakTitle{
+    color: #043970;
+    text-shadow: 1px 1px 2px #0070BB;
+    font-weight: bold;
+    margin-left: 1%
+}
+
+.manImg {
+    border: 2px solid black;
+    margin: 1% 1%;
+}
+
+
+/* Second Break between Content  */
+
+.secondBreak {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;  
+}
+
+.tecImg {
+    margin: 4% 4%;
+    padding-bottom: 1em;
+}
+
+
+.techResouce {
+    margin: auto auto;
+}
+
+
+
+.techResouce label{
+    display:block;
+    justify-content:center;
+    align-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #043970;
+    text-shadow: 1px 1px 2px #0070BB;
+}
+

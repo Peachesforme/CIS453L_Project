@@ -9,32 +9,40 @@
     background-color: #043970;
     border-radius: 3px;
     box-shadow: 1px 1px 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .itemList {
     display: flex;
     flex-wrap: wrap;
     margin: auto auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    max-width: 100%;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+}
+
+.itemContainer{
+    margin: auto auto;
+    padding-left: 2%;
+    padding-top: 2%;
     padding-bottom: 2%;
 }
 
-.itemInList {
-    border: black solid 1px;
-    margin: auto;
-    box-shadow: 1px 1px 2px;
+.itemContainer img{
+    border-radius: 5px;
+    margin: 0;
 }
 
-.Sales.itemInList {
-    border-radius: 5px; 
-}
+
 
 .serviceTools.itemInList {
+    margin: auto auto;
     border-radius: 50%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
 }
 
-.recentRestock.itemInList {   
-    border-radius: 5px; 
-}

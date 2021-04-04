@@ -9,8 +9,10 @@ class Main extends Component {
                 <div className="Banner">
                             <h1 className="CompanyName">Mouser Electronics</h1>
                             <div className="searchContainer">
-                                <input type="search" id="search" placeholder="Product ID#/Name"/>
-                                <button id="searchButton">Search</button>
+                                <div className="searchBarCombo">
+                                    <input className="Search" type="search" id="searchBar" placeholder="Product ID#/Name"/>
+                                    <button className="Search"  id="searchButton">Search</button>
+                                </div>   
                             </div>
                             <div className='ContactInfo'>
                                 <h3>Contact Info</h3>

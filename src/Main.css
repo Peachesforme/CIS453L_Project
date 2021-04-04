@@ -1,3 +1,7 @@
+body {
+    font-family: Ubuntu, "times new roman", times, roman, serif;
+}
+
 .Banner {
     background-color: whitesmoke;
     /* background: linear-gradient(180deg, rgba(4, 57, 112,1) 0%, #0070BB 96.87%); */
@@ -32,20 +36,47 @@
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
-    padding-left: 2%;
-    padding-top: 5%;
-    margin-left: auto;
-    border: 3px fuze whitesmoke;
-    height: 24px;
+    /* border: 3px groove whitesmoke; */
     width: 50%;
 }
 
-.search{
-    margin-right: 0;
-    border: none;
-    height: 10%;
+#searchBar{
+    display: block;
+    margin-left: 0;
+    width:80%;
+    border-radius: 4px;
 }
 
 #searchButton {
+    margin: 0;
+    /* background-color:#0070BB ; */
+    color: grey;;
+    font-weight: bold;
     margin-left: 0;
+    height: 24px;
+    /* border: 2px groove grey; */
+    border-radius: 4px;
+    width: 20%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-size: 48px;
+}
+
+
+#searchButton:hover {
+    /* background-image:  url(https://www.freeiconspng.com/uploads/search-icon-png-1.png) no-repeat center; */
+    background: #0070BB15;
+}
+
+.searchBarCombo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 24px;
+    /* border: 3px ridge black; */
+    border-radius: 4px;
+    width: 80%;
 }
